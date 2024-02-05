@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #f0f2f5;
+}
+.container{
+    
+    display: flex;
+    /* padding: 150px 120px; */
+margin-top: 200px;   
+padding: 0px 25%;  
+width: 100%;
+}
+.logo{
+    width: 400px;
+    height: 150px;
+    margin-left: -38px;
+}
+p{
+    font-size: 28px;
+    font-weight: 400;
+    width: 500px;
+    margin-top: -25px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);;
+    padding: 20px 10px 30px 10px;
+    width: 396px;
+    background-color: #fff;
+}
+.fix{
+    align-self: center;
+    margin: 6px 0px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    /* color: #1877f2; */
+    color: rgb(24, 119, 242)    ;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    border: none;
+}
+.margins{
+    margin: 6px 0px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+}
+.b1{
+    margin: 6px 0px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    height: 48px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    background-color: #1877f2;
+    font-size: 20px;
+    width: 376px;
+    cursor: pointer;
+}
+hr{
+    color:#1c1e21 ;
+    opacity: 0.5;
+    margin-bottom: 20px;
+    
+}
+.b2{
+    margin: 6px 0px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    font-size: 17px;
+    border: none;
+    color: white;
+    background-color: #42b72a;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+    cursor: pointer;
+}
+.final{
+    margin-top: 28px;
+    text-align: center;
+}
+.bold{
+    font-weight: 600;
+    
+    color: #000;
+}
+span{
+    
+font-family:  Helvetica, Arial, sans-serif
+;
+}
+.right{
+    margin-left: 32px;
+}
+.left{
+    margin-left: -42px;
+}
+.b2:hover{
+    background-color: #36a420;
+
+}
+.margins:focus{
+    border-color: #1b74e4;
+    box-shadow: 0 0 0 2px #e7f3ff;
+    outline: none;
+    caret-color: #1b74e4;
+}
+.fix:hover{
+text-decoration: underline;
+}
+.bold:hover
+{
+    text-decoration: underline;
+}
