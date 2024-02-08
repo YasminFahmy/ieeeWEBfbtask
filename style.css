@@ -15,6 +15,7 @@ body{
 margin-top: 200px;   
 padding: 0px 25%;  
 width: 100%;
+justify-content: center;
 }
 .logo{
     width: 400px;
@@ -104,10 +105,12 @@ font-family:  Helvetica, Arial, sans-serif
 ;
 }
 .right{
-    margin-left: 32px;
+    /* margin-left: 35px; */
+    /* padding-left: 150px; */
 }
 .left{
-    margin-left: -42px;
+    /* margin-left: -72px; */
+    padding-right: 170px;
 }
 .b2:hover{
     background-color: #36a420;
