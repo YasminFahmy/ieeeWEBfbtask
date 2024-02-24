@@ -12,10 +12,14 @@ body{
     
     display: flex;
     /* padding: 150px 120px; */
-margin-top: 200px;   
-padding: 0px 25%;  
-width: 100%;
+/* margin-top: 200px;    */
+padding: 0px 90px;  
 justify-content: center;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+/* background-color: green; */
+height: 100vh;
 }
 .logo{
     width: 400px;
@@ -36,6 +40,7 @@ form{
      box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);;
     padding: 20px 10px 30px 10px;
     width: 396px;
+    /* width: 100%; */
     background-color: #fff;
 }
 .fix{
@@ -68,7 +73,7 @@ form{
     font-weight: 700;
     background-color: #1877f2;
     font-size: 20px;
-    width: 376px;
+    width: 100%;
     cursor: pointer;
 }
 hr{
@@ -105,12 +110,17 @@ font-family:  Helvetica, Arial, sans-serif
 ;
 }
 .right{
-    /* margin-left: 35px; */
-    /* padding-left: 150px; */
+    /* margin-left: 200px; */
+    width: auto;
+    /* height: 100%; */
+    /* background-color: blue; */
 }
 .left{
-    /* margin-left: -72px; */
-    padding-right: 170px;
+margin-top: -150px;
+    /* margin-left: -42px; */
+    /* background-color: red; */
+    /* width: 100%; */
+    width: auto;
 }
 .b2:hover{
     background-color: #36a420;
@@ -128,4 +138,64 @@ text-decoration: underline;
 .bold:hover
 {
     text-decoration: underline;
+}
+.click{
+    text-decoration: none;
+}
+@media screen and (max-width:900px){
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    .container{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0px 5%;
+        height: 100vh;
+        /* background-color: red; */
+       
+    }
+    .logo{
+width: 75%;
+margin: 0px;
+padding: 0px;
+    }
+    .left{
+        text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+        /* background-color: red; */
+        margin: 0px;
+        padding: 0px;
+    }
+    .left p{
+        font-size: 15px;
+     
+        margin-bottom: 5%;
+        text-align: center;
+        
+       
+        width: 94%;
+    }
+    .right{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    .final{
+        font-size: 15px;
+    }
+  .bold {
+    text-decoration: underline rgba(0, 0, 0, 0.685);
+  }
+  form{
+    
+    width: 100%;
+  }
 }
